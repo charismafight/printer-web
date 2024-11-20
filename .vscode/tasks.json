@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "printer-web",
+			"problemMatcher": [],
+			"label": "run-dev",
+			"detail": "vite",
+			"isBackground": true
+		}
+	]
+}
