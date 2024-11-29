@@ -1,14 +1,12 @@
 <script setup lang="ts">
 import UploadButton from './components/UploadButton.vue'
 import PrintButton from './components/PrintButton.vue'
-import axios from 'axios';
 
-const serverUrl = axios.defaults.baseURL + 'staticfiles'
 </script>
 
 <template>
   <header>
-    <a :href="serverUrl"><img alt="Taye" class="logo" src="@/assets/taye.jpg" width="100%" height="400px" /></a>
+    <img alt="Taye" class="logo" src="@/assets/taye.jpg" width="100%" height="380px" />
   </header>
   <el-row>
     <el-col :span=12>

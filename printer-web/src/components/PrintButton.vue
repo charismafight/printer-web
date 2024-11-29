@@ -10,5 +10,5 @@
 import { getCurrentInstance } from 'vue'
 
 const proxy = getCurrentInstance()?.proxy
-const url = proxy?.$http.defaults.baseURL + 'PrinterManager/Print'
+const url = proxy?.$http.defaults.baseURL + 'Print'
 </script>
